@@ -1,0 +1,248 @@
+html body{
+
+    background-color: #f0f0f0;
+}
+body .flex{
+    display: flex;
+    justify-content: space-between;
+}
+body #top-sect {
+    height: 45px;
+    background-color: #495057;
+}
+body #top-sect .logo{
+    width: 20%;
+    text-align: center;
+    height: 45px;
+    overflow: hidden;
+}
+body #top-sect .logo a{
+
+    font-family: Raanana;
+    font-size: 30px;  
+    line-height: 50px;
+    color: silver;
+    text-decoration: none;
+}
+body #top-sect .logo a:hover{
+    color: white;
+}
+body #top-sect .top-menu{
+
+    width: 40%;
+}
+body #top-sect .top-menu.right-menu{
+    text-align: right;
+}
+body #top-sect .top-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+body #top-sect .top-menu ul li{
+    display: block;
+}
+body #top-sect .top-menu ul li a{
+    display: block;
+    line-height: 45px;
+    margin: 0;
+    padding: 0;
+    padding: 0 15px;
+    color: #e0e0e0;
+}
+body #top-sect .top-menu ul li a:hover{
+    border: none;
+    color: white;
+}
+#sub-top-sect .menu{
+    display: flex;
+}
+#sub-top-sect{
+    position: relative;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,.65);
+}
+#sub-top-sect ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    display: flex;
+
+}
+#sub-top-sect ul.main{
+    margin-left: -15px;
+
+}
+#sub-top-sect ul ul{
+    display: none;
+}
+#sub-top-sect .menu >ul >li{
+    line-height: 45px;
+    position: relative;
+}
+#sub-top-sect .menu >ul >li a{
+    padding: 0 15px;
+    line-height: 45px;
+    position: relative;
+    z-index: 23;
+}
+#sub-top-sect ul >li >a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+#sub-top-sect ul.second >li >a{
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}
+#sub-top-sect ul li:hover{
+    z-index: 22;
+    background-color: #d5d5d5;
+}
+#sub-top-sect ul li:hover >ul{
+    height: auto;
+    position: absolute;
+    background-color: white;
+    z-index: 10;
+    top: 100%;
+    display: block;
+    width: 200px;
+    box-shadow: 0 0 15px rgba(0,0,0,.65);
+}
+#sub-top-sect ul li:hover ul li a{
+    padding: 5px 15px;
+    display: block;
+}
+#sub-top-sect ul li:hover ul li a:hover{
+    background-color: #e0e0e0;
+}
+.roww{
+    margin: 0 -15px;
+}
+.gray-bg{
+    background-color: #d0d0d0;
+    padding: 30px 0;
+}
+.image-block{
+    text-align: center;
+}
+.img-block-link{
+    position: relative;
+    display: block;
+}
+.img-block-link img{
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: auto;
+}
+.img-block-link .text{
+    top: 0;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    color: white;
+    line-height: 145px;
+    font-size: 36px;
+    font-weight: bold;
+    transition: all .2s ease-in;
+}
+.img-block-link .text:hover{
+    background-color: rgba(0,0,0,.45);
+}
+.main-sect{
+    padding: 3rem 0;
+}
+.card-item .card-image{
+    padding: 3px 0;
+    position: relative;
+    align-items: center;
+}
+.card-item .card-image img{
+    width: calc(100% - 6px);
+    height: auto
+}
+.card-item .card-image .sub-info{
+    position: absolute;
+    left: 3px;
+    bottom: 0px;
+    font-size: 12px;
+    color: black;
+    background: white;
+    border-top-right-radius: 3px;
+    line-height: 25px;
+    padding: 0 5px;
+}
+.card-item .title{
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+.card-item .description{
+    color: #495057;
+    font-size: 12px;
+    text-decoration: none;
+}
+.my-card{
+    margin-bottom: 1rem;
+}
+.card-item:hover{
+    text-decoration: none;
+}
+html body .over-margin{
+    margin-left: -30px;
+}
+footer{
+    margin-top: 5rem;
+    padding: 60px 0;
+    background-color: black;
+    color:#777;
+}
+.footer-menu{
+    list-style: none;
+    
+}
+.footer-menu li{
+    display: inline-block; 
+}
+.footer-menu li a{
+    font-size: 11px;
+    color: #777;
+    margin-right: 3rem;
+}
+.footer-menu li a:hover{
+    color: white;
+    text-decoration: none;
+}
+.footer-menu li a.hightlighted{
+    color: white;
+}
+.footer-slogan{
+    color: white;
+    font-size: 11px;
+    margin-top: 2rem;
+}
+.social-links {
+    display: flex;
+    justify-content: space-between;
+}
+.social-links .social-link{
+    margin-top: 2rem;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    text-indent: 100%;
+    border-radius: 50%;
+}
+.social-link.social-twitter{
+    background: url('images/tw.png') no-repeat center center;
+    background-size: contain;
+}
+.social-link.social-vk{
+    background: url('images/vk.png') no-repeat center center;
+    background-size: contain;
+}
